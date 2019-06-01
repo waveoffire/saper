@@ -7,73 +7,79 @@
 }
 
 #plansza button {
-    
+
     width: 51px;
     height: 51px;
     background-color: #0000ff;
     text-align: center;
-    position:absolute;
+    position: absolute;
     box-sizing: border-box;
-    top:0;
+    top: 0;
     left: 0;
     transition: opacity 0.5s;
-    
+
 }
 
-button.hidden{
+button.hidden {
     opacity: 0;
 }
 
-#plansza button:hover{
-    background-color:#353583;
+#plansza button:hover {
+    background-color: #353583;
 }
 
-td.p1{
+td.p1 {
     color: blue;
 }
 
-td.p2{
+td.p2 {
     color: #00aa00;
 }
 
-td.p0{
-    color:transparent;
+td.p0 {
+    color: transparent;
 }
 
-td.p-1{
+td.p-1 {
     background-image: url(bomb2.png);
     background-repeat: no-repeat;
-    background-size:contain;
-    color:transparent;
+    background-size: contain;
+    color: transparent;
     background-position: center;
-    
+
 }
 
 #flaga {
     background-image: url(flaga.jpg);
     background-repeat: no-repeat;
-    background-size:contain;
-    color:transparent;
+    background-size: contain;
+    color: transparent;
     background-position: center;
 }
 
-#wyswietlacz{
+#wyswietlacz {
     color: red;
-    font-size: 70px;   
+    font-size: 70px;
 }
 
 #komunikat {
     border: orange 2px solid;
     background-color: #00c2fc;
     text-align: center;
-    height: 100px;
-    position:fixed;
-    top:100px;
-    left:100px;
+    height: 300px;
+    position: fixed;
+    top: 80px;
+    left: 100px;
     width: 300px;
     box-sizing: border-box;
     z-index: 10;
     line-height: 100px;
     display: none;
     font-size: 70px;
+}
+
+#restart {
+    font-size: 70px;
+    border: rgb(170, 111, 0) 2px solid;
+    background-color: #0098c7;
 }
