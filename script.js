@@ -9,6 +9,21 @@ function komunikat(tekst) {
     var p = document.getElementById("komunikat");
     p.innerHTML = tekst + "<button id='restart' onclick='restart()'>Restart</button>";
     p.style.display = "block";
+    var wiersz;
+    for (wiersz = 0; wiersz < wysokosc; wiersz++) {
+        var kol;
+        for (kol = 0; kol < szerokosc; kol++) {
+            var id = "b" + wiersz + "_" + kol;
+            var button = document.getElementById(id);
+
+            button.disabled = true;
+
+
+        }
+
+    }
+
+
 }
 
 function wielkoscplanszy() {
